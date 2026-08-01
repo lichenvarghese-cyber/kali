@@ -1,7 +1,1 @@
-gobuster dir -u http://$ip/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -t 50 --exclude-length 80118
-ffuf -u http://TARGET/FUZZ \
-  -w /usr/share/seclists/Discovery/
-     Web-Content/common.txt \
-  -e .php,.bak,.zip \
-  -fs 1234 \
-  -rate 50
+https://claude.ai/share/6f238579-a748-4a6c-9437-db4f47aa1e12
