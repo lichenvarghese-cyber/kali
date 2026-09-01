@@ -1,0 +1,30 @@
+This issue occurs when the VirtualBox display output resolution does not automatically adjust to fit the guest window, leaving large black borders around your Kali Linux desktop.
+
+**1. Install VirtualBox Guest Additions**
+Open a terminal inside your Kali VM (`Ctrl + Alt + T`) and run the following commands to install the required drivers and packages:
+
+```bash
+sudo apt update
+sudo apt install -y virtualbox-guest-x11
+
+```
+
+Once installed, restart your virtual machine:
+
+```bash
+sudo reboot
+
+```
+
+**2. Enable Auto-Resize in VirtualBox**
+After the VM reboots, ensure VirtualBox is set to dynamically rescale the desktop display:
+
+* In the top VirtualBox menu bar, click **View**.
+* Select **Auto-resize Guest Display** (or press `Host + G`, where the default Host key is `Right Ctrl`).
+* Maximizing or resizing the VirtualBox window will now cause the Kali desktop to expand automatically to fit the screen.
+
+**3. Manually Change Display Resolution (Alternative)**
+If you prefer setting a fixed resolution without auto-resizing:
+
+* Inside Kali, click the Application Launcher (top-left menu icon) and open **Settings** > **Display**.
+* Change the **Resolution** dropdown menu to match your monitor's display mode (e.g., `1920x1080`) and click **Apply**.
