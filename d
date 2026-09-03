@@ -4,3 +4,4 @@ ssh -R 80:localhost:8080 nokey@localhost.run
 wget "https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb" 
 sudo dpkg -i cloudflared-linux-amd64.deb 
 cloudflared tunnel --url http://localhost:5000
+https://github.com/thewhiteh4t/seeker
